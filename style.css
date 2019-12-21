@@ -1,0 +1,208 @@
+.card-panel{
+
+box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.25)!important;
+border-bottom-right-radius: 10px;
+border-top-left-radius: 10px;
+    
+}
+.tile .tile-footer {
+    position: absolute;
+    top: 0.25em;
+    left: 0em;
+    width: 100%;
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    font-size: 0.8em;
+    
+    height: 2.4em;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    
+}
+
+.tile .spacer{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 87% !important;
+    left: 0em;
+    background-color: #000 !important;
+    height: 2.1em;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    box-shadow: 
+        inset 0px 7px 13px -12px #000,
+      
+    
+   
+}
+.tile .title {
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    top: 74% !important;
+    left: 0em;
+    height: 2.4em;
+    font-size: 0.6em;
+    text-transform: uppercase;
+    padding-top: 8px;
+    padding-bottom: 12px;
+      font-weight: 500;
+      color:#fff!important;
+    
+   
+}
+
+.tile.dashboard{
+    background: rgb(57,50,99);
+background: linear-gradient(126deg, rgba(57,50,99,1) 0%, rgba(39,33,78,1) 100%);
+border: 1px solid #4a456d;
+}
+
+.tile.dashboard .title.truncate{
+    background-color: #1b2b34 !important;
+    box-shadow: none;
+    font-size: 1em;
+    height: 0px;
+    
+}
+
+.tile.dashboard .main-content .label{
+font-size: 0.8em!important;
+  text-transform: uppercase;
+}
+
+
+#app > div.main-content.container.full-width > div.tiles-dashboard > div > div.grid.dashboard > div.card-panel.tile.clock.tall-1x.custom-height.wide-10x.custom-width
+{
+   
+
+    box-shadow: none!important;
+    border-width: 0px;
+  border-style: solid;
+border-bottom: 2px solid;
+  border-image: linear-gradient(90deg, rgba(0,0,0,0.0), rgb(250,224,66)) 1;
+}
+
+
+.tile .clock{
+    box-shadow: none!important;
+    color:#fff!important;
+}
+
+
+
+.presence-sensor {
+    background: rgb(57,50,99);
+background: linear-gradient(126deg, rgba(57,50,99,1) 0%, rgba(39,33,78,1) 100%);
+border: 1px solid #4a456d;
+}
+
+.routine {
+    background: rgb(57,50,99);
+background: linear-gradient(126deg, rgba(57,50,99,1) 0%, rgba(39,33,78,1) 100%);
+border: 1px solid #4a456d;
+}
+.switch{
+    background: rgb(57,50,99);
+background: linear-gradient(126deg, rgba(57,50,99,1) 0%, rgba(39,33,78,1) 100%);
+border: 1px solid #4a456d;
+}
+
+.switch-level{
+    background: rgb(57,50,99);
+background: linear-gradient(126deg, rgba(57,50,99,1) 0%, rgba(39,33,78,1) 100%);
+border: 1px solid #4a456d;
+}
+.music-player{
+    background: rgb(57,50,99);
+background: linear-gradient(126deg, rgba(57,50,99,1) 0%, rgba(39,33,78,1) 100%);
+border: 1px solid #4a456d;
+}
+
+span.label.wrap
+{
+transform: rotate(270deg);
+font-size: 1.5em!important;
+font-weight: 200!important;
+};
+
+
+.time{
+    font-size: 3em!important;
+    float: right!important;
+    text-align: right;
+    color: #fff!important;
+}
+
+
+.background-overlay{
+background: rgb(17,17,46);
+background: linear-gradient(180deg, rgba(17,17,46,1) 0%, rgba(16,22,60,1) 14%, rgba(13,11,45,1) 14%);
+}
+.spacer{
+    background-color: none!important;
+    box-shadow: none!important;
+    opacity: 0;
+}
+.icon svg{
+    
+    font-weight: 100!important;
+}
+
+.icon.glow-yellow, svg.glow-yellow
+{
+    
+    filter: drop-shadow(0 0 13px yellow)drop-shadow(0 0 20px yellow);
+}
+
+.tile.weather .tile-footer{
+margin: 10px 0 0 0;
+}
+
+.tile.weather .temperature-and-icon
+ {
+font-size: 1.8em!important;
+  text-transform: uppercase;
+}
+div.temperature-and-icon > svg {
+font-size: 5.8em!important;
+  text-transform: uppercase;
+}
+.tile.weather 
+ {
+font-size: 0.8em!important;
+  text-transform: uppercase;
+  
+}
+
+div.main-content.valign-wrapper > div > div > svg
+ {
+font-size: 3em!important;
+ margin-top: 20px;
+  
+}
+
+div.bottom-left.Temperature.Measurement{
+visibility: hidden;
+}
+.tile.weather .tile-footer{
+visibility: hidden;
+}
+
+.tile.weather{
+    background: none!important;
+        box-shadow: none!important;
+            border-width: 0px;
+  border-style: solid;
+border-bottom: 2px solid;
+      border-image: linear-gradient(270deg, rgba(0,0,0,0.0), rgb(250,224,66)) 1;
+
+}
+
+.temperature-holder{
+font-size: 0.7em!important;
+text-align: right!important;
+}
